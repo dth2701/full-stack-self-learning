@@ -1,0 +1,50 @@
+
+/* 4h: Pagination */
+  .search-index {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+  }
+
+/* 4i: Stretch */
+  .stretch-button {
+    background-color: green;
+    color: white;
+    border: none;    
+    transition: padding 1s;
+  }
+
+  .stretch-button:hover {
+    padding: 20px;
+  }
+/* 4j: 3D Click  */
+  .shadow-button{
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .shadow-button:active{
+    box-shadow: none;
+  }
+
+/* 4k. Margin and Padding together */
+  .interactive-button{
+    background-color: lightsalmon;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    transition: padding 0.15s, margin 0.15s;
+  }
+
+  .interactive-button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
